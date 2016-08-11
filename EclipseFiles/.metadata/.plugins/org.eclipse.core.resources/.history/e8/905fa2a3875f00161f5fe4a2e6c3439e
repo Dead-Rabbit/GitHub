@@ -1,0 +1,9 @@
+package QesDao;
+
+public class QesDao {
+	private int id = 0;
+	private String title = null;
+	private String time = null;
+	
+	
+}

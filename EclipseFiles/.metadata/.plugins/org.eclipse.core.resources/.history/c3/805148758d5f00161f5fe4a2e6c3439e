@@ -1,0 +1,12 @@
+package Imp;
+import JDBCHelpr.JdbcHelper;
+import Dao.*;
+import Interf.*;
+import java.sql.*;
+public class quesImp implements quesInterf {
+	Connection conn = null;
+	JdbcHelper jdbcHelper = null;
+	public quesImp(){
+		
+	}
+}

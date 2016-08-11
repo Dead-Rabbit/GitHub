@@ -1,0 +1,6 @@
+package Imp;
+import Dao.*;
+import Interf.itemInterf.*;
+public class itemImp implements item {
+
+}

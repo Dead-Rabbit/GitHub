@@ -1,0 +1,65 @@
+package Imp;
+import JDBCHelpr.JdbcHelper;
+import Dao.*;
+import Interf.*;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
+import net.sf.json.JSONObject;
+public class quesImp implements quesInterf {
+	Connection conn = null;
+	JdbcHelper jdbcHelper = null;
+	public quesImp(){
+		jdbcHelper = new JdbcHelper();
+		conn = jdbcHelper.getConn();
+	}
+	@Override
+	public List<QuesDao> retById(int id) {
+		List<QuesDao> list = new ArrayList<QuesDao>();
+		String sqlString = "select * from questionbank where id = ?";
+		try{
+			ResultSet res = null;
+			PreparedStatement psta = conn.prepareStatement(sqlString);
+			psta.setInt(1, id);
+			res = psta.executeQuery();
+			while(res.next()){
+				QuesDao dao = new QuesDao();
+				dao.setAnswer(res.getString("answer"));
+				dao.setId(res.getInt("id"));
+				dao.setQuestion(res.getString("question"));
+				dao.setTypeId(res.getInt("typeId"));
+				list.add(dao);
+			}
+		}catch (Exception e){
+			e.printStackTrace();
+		}
+		return list;
+	}
+	@Override
+	public boolean insertQues(JSONObject json) {
+		// TODO Auto-generated method stub
+		boolean ifSucc = false;
+		String sqlString = "insert into items(id,title,time,state) values (?,?,?,'未发布')";
+		try{
+			PreparedStatement psta = conn.prepareStatement(sqlString);
+			psta.setInt(1,getNewId());
+			psta.setString(2, json.getString("title"));
+			psta.setString(3, json.getString("time"));
+			psta.setString(4, json.getString("state"));
+			psta.executeUpdate();
+			ifSucc = true;
+		}catch (Exception e){
+			e.printStackTrace();
+		}
+		return ifSucc;
+		
+	}
+	public static void main(String[] args) {
+		quesImp imp = new quesImp();
+		for(QuesDao dao : imp.retById(1)){
+			System.out.println(dao.getQuestion());
+		}
+	}
+}

@@ -1,0 +1,5 @@
+package Interf;
+import Dao.*;
+public interface itemInterf {
+	
+}

@@ -1,0 +1,25 @@
+window.onload = function(){
+	var xmlhttp;
+	var message = "";
+	if (window.XMLHttpRequest)
+	  {// code for IE7+, Firefox, Chrome, Opera, Safari
+	  xmlhttp=new XMLHttpRequest();
+	  }
+	else
+	  {// code for IE6, IE5
+	  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	  }
+	xmlhttp.onreadystatechange=function()
+	  {
+		alert("2");
+		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		{
+			alert("3");
+	    	alert(xmlhttp);
+	    }
+	  }
+	alert("1");
+	xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+	xmlhttp.open("POST","./getAll.java",true);
+	xmlhttp.send(message);
+}

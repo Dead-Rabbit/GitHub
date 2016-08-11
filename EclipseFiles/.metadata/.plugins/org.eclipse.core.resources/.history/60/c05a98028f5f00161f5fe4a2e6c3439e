@@ -1,0 +1,8 @@
+package Interf;
+import Dao.*;
+import java.util.*;
+public interface itemInterf {
+	List<itemDao> returnAll();
+	itemDao retById(int id);
+	void insertItem();
+}

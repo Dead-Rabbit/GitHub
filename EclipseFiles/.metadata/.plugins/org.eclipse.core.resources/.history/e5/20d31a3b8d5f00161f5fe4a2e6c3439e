@@ -1,0 +1,5 @@
+package Imp;
+
+public class quesImp implements quesInterf {
+
+}

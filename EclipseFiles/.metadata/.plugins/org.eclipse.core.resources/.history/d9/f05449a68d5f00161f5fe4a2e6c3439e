@@ -1,0 +1,7 @@
+package Interf;
+import java.util.List;
+
+import Dao.*;
+public interface quesInterf {
+	List<quesDao> retById(int id);
+}
