@@ -1,0 +1,2 @@
+127.0.0.1 - - [11/Aug/2016:12:32:59 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [11/Aug/2016:12:33:00 +0800] "GET /taskBackground/WEB-INF/classes/JDBCHelpr/JdbcHelper.java HTTP/1.1" 404 949

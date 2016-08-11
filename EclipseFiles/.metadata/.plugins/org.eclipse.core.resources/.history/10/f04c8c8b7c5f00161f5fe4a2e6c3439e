@@ -1,0 +1,7 @@
+package JDBCHelpr;
+import java.sql.*;
+public class JdbcHelper {
+	String connString = "jdbc:mysql://localhost:3306/javademo?"
+            + "user=root&password=root&useUnicode=true&characterEncoding=UTF8";
+	
+}

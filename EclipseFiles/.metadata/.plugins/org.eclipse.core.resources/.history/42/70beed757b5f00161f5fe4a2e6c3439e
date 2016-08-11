@@ -1,0 +1,6 @@
+package JDBCHelpr;
+import java.sql.*;
+public class JdbcHelper {
+	String connString = "";
+	Connection conn = new Connection(connString);
+}
