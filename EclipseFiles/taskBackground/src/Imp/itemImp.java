@@ -65,13 +65,14 @@ public class itemImp implements itemInterf {
 		boolean ifSucc = false;
 		int id = 0;
 		quesImp quesimp = new quesImp();
-		String sqlString = "insert into items(id,title,time,state) values (?,?,?,'未发布')";
+		String sqlString = "insert into items(id,title,time,state) values (?,?,?,?)";
 		try{
 			PreparedStatement psta = conn.prepareStatement(sqlString);
 			id = getNewId();
 			psta.setInt(1,id);
 			psta.setString(2, json.getString("title"));
 			psta.setString(3, json.getString("time"));
+			psta.setString(4, json.getString("state"));
 			psta.executeUpdate();
 			System.out.println("insert into items "+json.getString("title"));
 			//进行逐条插入 （问题信息）

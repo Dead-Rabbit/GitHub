@@ -1,6 +1,0 @@
-package Imp;
-import Dao.*;
-import Interf.*;
-public class quesImp implements quesInterf {
-	
-}

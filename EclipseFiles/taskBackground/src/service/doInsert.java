@@ -31,7 +31,7 @@ public class doInsert extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doPost(request,response);
+//		doPost(request,response);
 	}
 
 	/**
@@ -42,8 +42,13 @@ public class doInsert extends HttpServlet {
 		response.setContentType("text/html");
 		request.setCharacterEncoding("UTF-8");
 		response.setCharacterEncoding("UTF-8");
-		JSONObject json = new JSONObject(request.getParameter("json"));
-		itemImp itemimp = new itemImp();
-		
+		System.out.println(request.getParameter("data"));
+		if(request.getParameter("data") != null){
+			System.out.println(request.getParameter("data"));
+			JSONObject json = new JSONObject(request.getParameter("data").toString());
+			itemImp itemimp = new itemImp();
+		}else{
+			System.out.println("data null");
+		}
 	}
 }
