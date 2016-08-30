@@ -1,0 +1,464 @@
+fileFormatVersion: 2
+guid: d6805fd390fed42249f504bba44debbb
+timeCreated: 1472216372
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Character1_Head
+    100002: Character1_Hips
+    100004: Character1_LeftArm
+    100006: Character1_LeftFoot
+    100008: Character1_LeftForeArm
+    100010: Character1_LeftHand
+    100012: Character1_LeftLeg
+    100014: Character1_LeftUpLeg
+    100016: Character1_Reference
+    100018: Character1_RightArm
+    100020: Character1_RightFoot
+    100022: Character1_RightForeArm
+    100024: Character1_RightHand
+    100026: Character1_RightLeg
+    100028: Character1_RightUpLeg
+    100030: Character1_Spine
+    100032: Character1_Spine1
+    100034: locator1
+    100036: locator2
+    100038: pCube1
+    100040: pCube11
+    100042: pCube12
+    100044: pCube13
+    100046: pCube14
+    100048: pCube15
+    100050: pCube16
+    100052: pCube17
+    100054: pCube18
+    100056: pCube19
+    100058: pCube2
+    100060: pCube20
+    100062: pCube21
+    100064: pCube3
+    100066: pCube4
+    100068: pCube5
+    100070: pCube8
+    100072: pCube9
+    100074: pCylinder1
+    100076: pCylinder2
+    100078: pSphere1
+    100080: pSphere2
+    100082: transform1
+    100084: transform2
+    100086: transform3
+    100088: transform4
+    100090: transform5
+    100092: transform6
+    100094: transform7
+    100096: transform8
+    100098: //RootNode
+    400000: Character1_Head
+    400002: Character1_Hips
+    400004: Character1_LeftArm
+    400006: Character1_LeftFoot
+    400008: Character1_LeftForeArm
+    400010: Character1_LeftHand
+    400012: Character1_LeftLeg
+    400014: Character1_LeftUpLeg
+    400016: Character1_Reference
+    400018: Character1_RightArm
+    400020: Character1_RightFoot
+    400022: Character1_RightForeArm
+    400024: Character1_RightHand
+    400026: Character1_RightLeg
+    400028: Character1_RightUpLeg
+    400030: Character1_Spine
+    400032: Character1_Spine1
+    400034: locator1
+    400036: locator2
+    400038: pCube1
+    400040: pCube11
+    400042: pCube12
+    400044: pCube13
+    400046: pCube14
+    400048: pCube15
+    400050: pCube16
+    400052: pCube17
+    400054: pCube18
+    400056: pCube19
+    400058: pCube2
+    400060: pCube20
+    400062: pCube21
+    400064: pCube3
+    400066: pCube4
+    400068: pCube5
+    400070: pCube8
+    400072: pCube9
+    400074: pCylinder1
+    400076: pCylinder2
+    400078: pSphere1
+    400080: pSphere2
+    400082: transform1
+    400084: transform2
+    400086: transform3
+    400088: transform4
+    400090: transform5
+    400092: transform6
+    400094: transform7
+    400096: transform8
+    400098: //RootNode
+    2300000: pCube11
+    2300002: pCube12
+    2300004: pCube13
+    2300006: pCube14
+    2300008: pCube15
+    2300010: pCube16
+    2300012: pCube17
+    2300014: pCube18
+    2300016: pCube19
+    2300018: pCube20
+    2300020: pCube21
+    2300022: pCube8
+    2300024: pCube9
+    2300026: pSphere2
+    3300000: pCube11
+    3300002: pCube12
+    3300004: pCube13
+    3300006: pCube14
+    3300008: pCube15
+    3300010: pCube16
+    3300012: pCube17
+    3300014: pCube18
+    3300016: pCube19
+    3300018: pCube20
+    3300020: pCube21
+    3300022: pCube8
+    3300024: pCube9
+    3300026: pSphere2
+    4300000: pCube8
+    4300002: pCube9
+    4300004: pCube11
+    4300006: pCube12
+    4300008: pCube13
+    4300010: pCube14
+    4300012: pCube15
+    4300014: pCube16
+    4300016: pCube17
+    4300018: pCube18
+    4300020: pCube19
+    4300022: pCube20
+    4300024: pCube21
+    4300026: pSphere2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton:
+    - name: "\u9AA8\u9ABC\u7ED1\u5B9A\u6D4B\u8BD55(Clone)"
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_Reference
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_Hips
+      position: {x: -0, y: 1, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_LeftUpLeg
+      position: {x: -0.0891, y: -0.0627, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_LeftLeg
+      position: {x: -0, y: -0.4487864, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_LeftFoot
+      position: {x: -0, y: -0.40700957, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_RightUpLeg
+      position: {x: 0.0891, y: -0.0627, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_RightLeg
+      position: {x: -0, y: -0.4487864, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_RightFoot
+      position: {x: -0, y: -0.40700957, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_Spine
+      position: {x: -0, y: 0.2598957, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 2.6444445, z: 1}
+      transformModified: 1
+    - name: Character1_Spine1
+      position: {x: -0, y: 0.05136488, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_Head
+      position: {x: -0, y: 0.13622715, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_LeftArm
+      position: {x: -0.1770725, y: 0.0766786, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_LeftForeArm
+      position: {x: -0.27305466, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_LeftHand
+      position: {x: -0.26697147, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_RightArm
+      position: {x: 0.1770725, y: 0.0766786, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_RightForeArm
+      position: {x: 0.27305466, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character1_RightHand
+      position: {x: 0.26697147, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: locator1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: locator2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pCube1
+      position: {x: -0.000022170225, y: 0.07057125, z: -0.000015187219}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 3.7452831, y: 1.4666667, z: 1.9372154}
+      transformModified: 1
+    - name: transform6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pCube2
+      position: {x: 0.029728403, y: 0.05403226, z: 0.0003990478}
+      rotation: {x: 0, y: 0, z: 0.711729, w: 0.70245415}
+      scale: {x: 0.51660705, y: 4.1717405, z: 1.0922549}
+      transformModified: 1
+    - name: transform4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pCube3
+      position: {x: -0.02951255, y: 0.05403226, z: 0.0003990478}
+      rotation: {x: 0, y: 0, z: 0.711729, w: 0.70245415}
+      scale: {x: 0.51660705, y: 4.161157, z: 1.0922549}
+      transformModified: 1
+    - name: transform3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pCube4
+      position: {x: -0.0077631334, y: 0.007327287, z: 0.0003990478}
+      rotation: {x: 0, y: 0, z: 0.9999982, w: 0.0019112519}
+      scale: {x: 0.51660705, y: 3.2177343, z: 1.0922549}
+      transformModified: 1
+    - name: transform2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pCube5
+      position: {x: 0.008125746, y: 0.006992602, z: 0.0003990478}
+      rotation: {x: 0, y: 0, z: 0.9999982, w: 0.0019112519}
+      scale: {x: 0.51660705, y: 3.2177343, z: 1.0922549}
+      transformModified: 1
+    - name: transform1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pCube8
+      position: {x: 0.29311058, y: 1.4706253, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 25.419098, y: 6.520269, z: 9}
+      transformModified: 1
+    - name: pCube9
+      position: {x: 0.52501714, y: 1.4706253, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 17.619036, y: 6.520269, z: 9}
+      transformModified: 1
+    - name: pCube11
+      position: {x: -0.28009897, y: 1.4706253, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 24.34442, y: 6.520269, z: 9}
+      transformModified: 1
+    - name: pCube12
+      position: {x: -0.5164501, y: 1.4706253, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 19.210432, y: 6.520269, z: 9}
+      transformModified: 1
+    - name: pCube13
+      position: {x: -0.7161685, y: 1.4706253, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 15.686625, y: 6.520269, z: 9}
+      transformModified: 1
+    - name: pCube14
+      position: {x: 0.72280586, y: 1.4706253, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 15.686625, y: 6.520269, z: 9}
+      transformModified: 1
+    - name: pCube15
+      position: {x: -0.0036197987, y: 1.1993926, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 26.158266, y: 44.99928, z: 9}
+      transformModified: 1
+    - name: pCube16
+      position: {x: 0.09879928, y: 0.776961, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 8.363457, y: 35.976795, z: 9}
+      transformModified: 1
+    - name: pCube17
+      position: {x: -0.09549264, y: 0.7809976, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 8.363457, y: 35.976795, z: 9}
+      transformModified: 1
+    - name: pCube18
+      position: {x: -0.09549264, y: 0.39762226, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 8.363457, y: 35.976795, z: 9}
+      transformModified: 1
+    - name: pCube19
+      position: {x: 0.09232288, y: 0.39762226, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 8.363457, y: 35.976795, z: 9}
+      transformModified: 1
+    - name: pCube20
+      position: {x: 0.09232288, y: 0.1233246, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 8.363457, y: 13.058244, z: 9}
+      transformModified: 1
+    - name: pCube21
+      position: {x: -0.09549264, y: 0.1233246, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 8.363457, y: 13.058244, z: 9}
+      transformModified: 1
+    - name: pCylinder1
+      position: {x: -0, y: 0.042023733, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.180246, y: 2.367998, z: 0.18220545}
+      transformModified: 1
+    - name: transform5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pCylinder2
+      position: {x: -0, y: 1.4980317, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.8213866, y: 3.805062, z: 1.8213866}
+      transformModified: 1
+    - name: transform7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pSphere1
+      position: {x: -0, y: 1.647454, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 12.164935, y: 12.164935, z: 12.164935}
+      transformModified: 1
+    - name: transform8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pSphere2
+      position: {x: 0.000000014305114, y: 1.6145422, z: -0.000000019073486}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,90 @@
+newmtl CAM_lambert3SG
+illum 4
+Kd 0.89 0.80 0.62
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.21 0.21 0.21
+Ns 3.24
+newmtl CAM_phong3SG
+illum 4
+Kd 0.89 0.80 0.62
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.21 0.21 0.21
+Ns 3.24
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.92 0.86 0.75
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert4SG
+illum 4
+Kd 0.93 0.93 0.93
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert8SG
+illum 4
+Kd 0.22 0.22 0.22
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl phong4SG
+illum 4
+Kd 0.93 0.93 0.93
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.07 0.07 0.07
+Ns 3.24
+newmtl phong7SG
+illum 4
+Kd 0.51 0.68 0.47
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.21 0.21 0.21
+Ns 3.24
+newmtl phong8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.21 0.21 0.21
+Ns 3.24
+newmtl phong9SG
+illum 4
+Kd 0.78 0.23 0.17
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.21 0.21 0.21
+Ns 3.24
+newmtl proxy_eyesSG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl proxy_irisSG
+illum 4
+Kd 0.23 0.56 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl proxy_pupilSG
+illum 4
+Kd 0.29 0.29 0.29
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
