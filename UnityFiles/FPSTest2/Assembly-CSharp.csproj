@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\ExplosionScript.cs" />
+     <Compile Include="Assets\Scripts\EmeAI.cs" />
      <Compile Include="Assets\Scripts\beAttact.cs" />
      <Compile Include="Assets\Scripts\missileScript.cs" />
      <Compile Include="Assets\Scripts\shootAction.cs" />

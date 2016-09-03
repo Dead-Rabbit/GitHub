@@ -31,9 +31,9 @@ public class cameraS : MonoBehaviour {
 //		Rect  rect = new Rect(Input.mousePosition.x - (texture.width >> 1),
 //			Screen.height - Input.mousePosition.y - (texture.height >> 1),
 //			texture.width, texture.height);
-		Rect  rect = new Rect(Screen.width/2-Screen.height/30,
-			Screen.height/2-Screen.height/30,
-			Screen.height/2-Screen.height/30);
+		Rect  rect = new Rect(Screen.width/2-Screen.width/30,
+			Screen.height/2-Screen.width/30,
+			Screen.width/30,Screen.width/30);
 		GUI.DrawTexture(rect, texture);
 	}
 }
