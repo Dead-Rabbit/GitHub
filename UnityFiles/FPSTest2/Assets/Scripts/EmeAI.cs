@@ -21,11 +21,13 @@ public class EmeAI : MonoBehaviour {
 	public GameObject player;
 	public enemType enemyType;
 	public float thinkDurningTime = 3.0f;//AI思考间隔时间
+	public float aiMoveSpeed = 0.04f;
 
 	private int state = 1;
 	private float lastThinkTime = 0.0f;
 	private int rotateNumber = 0;
-	private string debugString = "hi,lonly jack";
+	private Vector3 walkPosition;
+	private NavMeshAgent agent;
 
 	private const int enemMoveSTAND = 1;
 	private const int enemMoveWALK = 2;
@@ -36,6 +38,7 @@ public class EmeAI : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		lastThinkTime = 0.0f;
+		agent = gameObject.GetComponent<NavMeshAgent> ();
 	}
 	
 	// Update is called once per frame
@@ -80,6 +83,7 @@ public class EmeAI : MonoBehaviour {
 			setStatement(enemMoveTURNAROUND);
 			break;
 		case 2:
+			walkPosition = getWalkPosition (1);
 			setStatement(enemMoveWALK);
 			break;
 		}
@@ -88,7 +92,6 @@ public class EmeAI : MonoBehaviour {
 		if (newState == state)
 			return;
 		state = newState;
-		string debugString = "I want to ";
 		string animaName = "";
 		switch(newState){
 		case enemMoveSTAND:
@@ -99,7 +102,7 @@ public class EmeAI : MonoBehaviour {
 			animaName = "turnaround";
 			break;
 		case enemMoveWALK:
-			animaName = "walk";
+			animaName = "walk"+walkPosition;
 			break;
 		case enemAttactRUN:
 			animaName = "run";
@@ -108,12 +111,10 @@ public class EmeAI : MonoBehaviour {
 			animaName = "attack";
 			break;
 		}
-		debugString += animaName;
 		//进行动画的播放
 //		if (!this.animation.IsPlaying (animaName)) {
 //			this.animation.Play(animName);
 //		}
-		Debug.Log(debugString);
 	}
 	void updateEnemyActivity(){
 		float distince = Vector3.Distance (player.transform.position,this.transform.position);
@@ -131,6 +132,7 @@ public class EmeAI : MonoBehaviour {
 				aiThinkResult();
 			}
 		}
+		Vector3 forwardVector ;
 		switch(state){
 		case  enemMoveSTAND:
 			break;
@@ -138,11 +140,12 @@ public class EmeAI : MonoBehaviour {
 			transform.rotation = Quaternion.Lerp (transform.rotation, Quaternion.Euler(0,rotateNumber * 90,0),  Time.deltaTime * 1);
 			break;
 		case enemMoveWALK:
-			transform.Translate(Vector3.forward *0.02f);
+			
+			agent.SetDestination (walkPosition);
 			break;
 		case enemAttactRUN:
 			transform.LookAt (player.transform.position);
-			transform.Translate(Vector3.forward *0.02f);
+			agent.SetDestination(player.transform.position);
 			break;
 		case enemAttactATTACK:
 			transform.LookAt (player.transform.position);
@@ -154,7 +157,9 @@ public class EmeAI : MonoBehaviour {
 		Debug.Log ("random number is "+res);
 		return res;
 	}
-	void OnGUI(){
-		GUI.Label(new Rect(0,0,Screen.width,Screen.height),debugString);
+	Vector3 getWalkPosition(int count){
+		float x = getRandom (count) - count/2;
+		float z = getRandom (count) - count/2;
+		return new Vector3 (transform.position.x+x,1.48f,transform.position.z+z);
 	}
 }

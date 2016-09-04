@@ -51,7 +51,9 @@
      <Compile Include="Assets\Scripts\missileScript.cs" />
      <Compile Include="Assets\Scripts\shootAction.cs" />
      <Compile Include="Assets\ShootScript.cs" />
+     <Compile Include="Assets\buildingCollider.cs" />
      <Compile Include="Assets\cameraS.cs" />
+     <Compile Include="Assets\fire.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
